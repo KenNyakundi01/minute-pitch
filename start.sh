@@ -1,4 +1,4 @@
-export SECRET_KEY='you-will-never-guess'
+export SECRET_KEY='<>'
 export MAIL_USERNAME='<>'
 export MAIL_PASSWORD='<>'
 

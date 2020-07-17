@@ -20,7 +20,7 @@ Clone the repository into your compter
 
 Set up and activate the virtual environment
 
-Make the installations and run the manage.py
+Make the installations as per the requirements.txt and run the manage.py
 
 ## Author
 

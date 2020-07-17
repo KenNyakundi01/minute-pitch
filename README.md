@@ -24,3 +24,7 @@ Set up and activate the virtual environment
 
 Make the installations and run the manage.py
 
+## Author
+
+Ken Nyakundi
+

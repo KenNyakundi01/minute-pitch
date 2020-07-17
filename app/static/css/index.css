@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400;500;700&family=Lato&display=swap');
+
+/* font-family: 'Grenze Gotisch', cursive;
+font-family: 'Lato', sans-serif; */
+
+body{
+    background: #434136;
+    color: white;    
+    font-family: 'Lato', sans-serif; 
+}
+h3{
+    font-size: 700;
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+    color: #d08e73;
+}
+.btn{
+    background-color: #b46750; 
+}
+.btn:hover{
+    background-color: #b4675093;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #b5b496;
+    font-weight: bold;
+    font-family: 'Grenze Gotisch', cursive;
+    text-align: center;
+    margin: .2em;
+}
+header a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    margin-right: .3em;
+    list-style: none;
+}
+nav ul li{
+    margin-right: .3em;
+    padding: .5em;
+    font-size: 2rem;
+
+}
+nav ul li:last-child{
+    background-color: #b46750;
+
+}
+nav ul li:last-child:hover{
+    background-color: #b4675093;
+    text-decoration: none;
+
+}
+ul a{
+    text-decoration: none;
+    color: #b5b496;
+    font-weight: bold;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 2rem;
+}
+ul a:hover{
+    text-decoration: none;
+    color: #b5b496;
+    font-weight: bold;
+    font-family: 'Grenze Gotisch', cursive;
+    border-bottom: 2px #b5b496 solid;
+}
+
+.card{
+border-right: #b46750;
+}
+.card-header{
+    background-color: rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+    padding: .2em;
+    margin: .2em;
+    text-align: center;
+}
+.card-header h1{
+    font-family: 'Grenze Gotisch', cursive;
+}
+.card-footer{
+    background-color: rgba(0, 0, 0, 0.19);
+    padding: .2em;
+    margin: .2em;
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-weight: 500;
+    color: #b46750;
+    float: left;
+}
+.mt-12{
+    margin-top: 2em;
+}
+.react img{
+    margin-right: .2em;
+}
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}

@@ -88,11 +88,7 @@ border-right: #b46750;
     display: flex;
     justify-content: space-between;
 }
-label{
-    font-weight: 500;
-    color: #b46750;
-    float: left;
-}
+
 .mt-12{
     margin-top: 2em;
 }
@@ -102,9 +98,6 @@ label{
 
 @media (max-width: 768px){
     header{
-        flex-direction: column;
-    }
-    nav ul{
         flex-direction: column;
     }
 }

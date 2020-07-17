@@ -38,6 +38,5 @@ def create_app(config_name):
     app.register_blueprint(auth_bp)
 
     
-    #Will add views and forms
 
     return app

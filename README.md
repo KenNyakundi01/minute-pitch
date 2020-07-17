@@ -15,3 +15,12 @@ Html
 Bootstrap
 
 CSS
+
+# How to set up
+
+Clone the repository into your compter
+
+Set up and activate the virtual environment
+
+Make the installations and run the manage.py
+

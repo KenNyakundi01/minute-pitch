@@ -14,6 +14,7 @@ manager.add_command('db', MigrateCommand)
 def make_shell_context():
     return dict(app = app, db = db, Pitch = Pitch, User = User, Role = Role)
 
+
 @manager.command
 def test():
     '''Run unit tests '''

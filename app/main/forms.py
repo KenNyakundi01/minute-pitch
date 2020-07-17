@@ -9,6 +9,7 @@ class PitchForm(FlaskForm):
     # date = DateTimeField('Date')
     category = SelectField('Select a category', choices=[('31', 'Job Pitches'), ('27', 'Movie Pitches'), ('26', 'Product Pitches'), ('32', 'Motivation Pitches')])
     submit = SubmitField('Submit')
+    
 
 class CommentForm(FlaskForm):
     content = TextAreaField('Content', validators=[Required()])

@@ -13,12 +13,7 @@ class Config:
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
 
 class ProdConfig(Config):
-    '''
-    Production  configuration child class
-
-    Args:
-        Config: The parent configuration class with General configuration settings
-    '''
+   
     pass
 
 

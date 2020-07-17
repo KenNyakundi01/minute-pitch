@@ -18,7 +18,9 @@ CSS
 
 Clone the repository into your compter
 
-Set up and activate the virtual environment
+Get into the file
+
+Set up and activate the virtual environment 
 
 Make the installations as per the requirements.txt and run the manage.py
 
